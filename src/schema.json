@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "title": "姓名",
+      "type": "string",
+      "maxLength": 5,
+      "description": "請填入文字"
+    },
+    "mail": {
+      "title": "信箱",
+      "type": "string",
+      "description": "請填入電子信箱"
+    },
+    "phone": {
+      "title": "電話（手機）",
+      "type": "string",
+      "description": "請填入手機或電話號碼"
+    },
+    "company": {
+      "title": "單位",
+      "type": "string",
+      "description": "請填入公司名稱"
+    }
+  },
+  "required": [
+    "name",
+    "mail",
+    "phone",
+    "company"
+  ]
+}
