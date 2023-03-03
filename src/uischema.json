@@ -16,6 +16,13 @@
     {
       "type": "Control",
       "scope": "#/properties/company"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/courseMode",
+      "options": {
+        "format": "radio"
+      }
     }
   ]
 }

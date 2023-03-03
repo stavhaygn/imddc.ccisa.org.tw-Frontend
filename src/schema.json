@@ -21,12 +21,21 @@
       "title": "單位",
       "type": "string",
       "description": "請填入公司名稱"
+    },
+    "courseMode": {
+      "title": "模式",
+      "type": "string",
+      "enum": [
+        "線上",
+        "實體"
+      ]
     }
   },
   "required": [
     "name",
     "mail",
     "phone",
-    "company"
+    "company",
+    "courseMode"
   ]
 }

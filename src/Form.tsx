@@ -52,6 +52,7 @@ const initialData = {
   mail: '',
   phone: '',
   company: '',
+  courseMode: '',
 };
 
 const renderers = [
